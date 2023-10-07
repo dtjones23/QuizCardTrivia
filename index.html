@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
     <title>Quiz Card Game</title>
 </head>
+
 <body>
-    <div class ="container">
-        <!-- Buttons to see score and start the game -->
+    <header>
+        
+        <a href="/highscore.html"><h3>View Highscores</h3> </a>
         <h1>Quiz Card Trivia</h1>
-        
-        <button class = "score" id= "hiScore">View Highscores</button>
-        
-        <div class = "timer" id= "timeLeft">Time Remaining</div>
-        <!-- Will enable timer to be visible to user -->
+        <h3 class="timer" id="timeLeft">Time Remaining</h3>
 
-        <button type="button" id= "startButton">Begin Conquest</button>
-    
-    <div class="questions-container"> Questions Here
-        <!-- section where users will see quiz questions -->
-        <form>
-            <button class = "question" id="questionOpt">Option1 </button>
-            <button class = "question" id="questionOpt">Option2 </button>
-            <button class = "question" id="questionOpt">Option3 </button>
-            <button class = "question" id="questionOpt">Option4 </button>
-        </form>
-        
+    </header>
+    <main>
+        <section id="start-section">
+          <button type="button" id="start-button">Begin Conquest</button>  
+        </section>
+        <section class="hide" id="quiz-section">
+            <div class="questions-container"> 
+                <h2 id="question-el"></h2>
+            </div>
 
-    <button class="next" id = "nextButton"> Next Question </button>
-
-    </div>
-        
-
-    </div>
+        </section>
+        <section class="hide" id="end-game">End Game</section>
+    </main>
+    <script src="./assets/questions.js"></script>
+    <script src="./assets/script.js"></script>
 </body>
+
 </html>
