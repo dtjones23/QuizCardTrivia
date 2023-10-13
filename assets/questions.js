@@ -7,7 +7,7 @@ const javascriptQuestions = [
         "To create and manage databases for web applications.",
         "To design graphics and animations for websites."
       ],
-      answer: 1 // Index of the correct answer in the 'options' array
+      answer: "To add interactivity and dynamic behavior to web pages." // Index of the correct answer in the 'options' array
     },
     {
         question: "Which keyword is used to declare a variable in JavaScript?",
@@ -17,7 +17,7 @@ const javascriptQuestions = [
           "v",
           "declare"
         ],
-        answer: 0 // Index of the correct answer in the 'options' array
+        answer: "var" // Index of the correct answer in the 'options' array
       },
       {
         question: "Which of the following is NOT a valid data type in JavaScript?",
@@ -27,7 +27,7 @@ const javascriptQuestions = [
           "Boolean",
           "Integer"
         ],
-        answer: 3 // Index of the correct answer in the 'options' array
+        answer: "Integer" // Index of the correct answer in the 'options' array
       },
       {
         question: "How can you comment out a single line of code in JavaScript?",
@@ -37,7 +37,7 @@ const javascriptQuestions = [
           "<!-- This is a comment -->",
           "' This is a comment '"
         ],
-        answer: 1 // Index of the correct answer in the 'options' array
+        answer: "// This is a comment" // Index of the correct answer in the 'options' array
       },
       {
         question: "What does the 'DOM' stand for in JavaScript?",
@@ -47,7 +47,7 @@ const javascriptQuestions = [
           "Document Object Manipulation",
           "Dynamic Object Model"
         ],
-        answer: 0 // Index of the correct answer in the 'options' array
+        answer: "Document Object Model" // Index of the correct answer in the 'options' array
       },
       {
         question: "Which function is used to add an element to the end of an array in JavaScript?",
@@ -57,7 +57,7 @@ const javascriptQuestions = [
           "addToEnd()",
           "insertAtEnd()"
         ],
-        answer: 1 // Index of the correct answer in the 'options' array
+        answer: "push()" // Index of the correct answer in the 'options' array
       }
 ]
     

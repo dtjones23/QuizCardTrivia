@@ -21,15 +21,28 @@
           <button type="button" id="start-button">Begin Conquest</button>  
         </section>
         <section class="hide" id="quiz-section">
+            <h2 id="question-el"></h2>
             <div class="questions-container"> 
                 <!-- holds the questions and the answers -->
 
-                <h2 id="question-el"></h2>
                 <!-- will be what shows the questions -->
             </div>
 
         </section>
-        <section class="hide" id="end-game">End Game</section>
+        <section class="hide" id="end-game">
+            <h2>
+                Game Over
+            </h2>
+            <h3>
+                Your score is: <span id="score-el"></span>
+                <!-- where we place score on page -->
+            </h3>
+            <form id="initials-form">
+                <label for="initials"></label>
+                <input id="initials" type="text" max="3">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
     </main>
     <script src="./assets/questions.js"></script>
     <script src="./assets/script.js"></script>
